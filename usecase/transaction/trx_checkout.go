@@ -180,6 +180,7 @@ func (s *defaultTransaction) Checkout(ctx context.Context, userId string, req mo
 		ID:           basketData.ID,
 		UserID:       basketData.UserID,
 		BasketStatus: entity.BasketCompleted,
+		CreatedAt:    basketData.CreatedAt,
 	}
 	err = s.transactionRepo.UpdateTransactionBasket(ctx, tx, &reqBasket)
 	if err != nil {
