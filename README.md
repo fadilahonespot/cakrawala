@@ -94,6 +94,16 @@ These instructions will get you a copy of the project up and running on your loc
     ```cmd
     go run main.go
     ```
+  - The first time you run this application, the `DB_MIGRATION` configuration must be set to `true` so that the application can create tables in the database. After that, import this query into the database:
+
+  ```sql
+  INSERT INTO `courier_infos` (`id`, `name`, `code`, `image`, `created_at`, `updated_at`, `deleted_at`) VALUES
+  (1, 'PT Tiki Jalur Nugraha Ekakurir', 'jne', 'http://google.com/jne.jpg', '2023-12-05 14:05:20.328', NULL, NULL),
+  (2, 'PT Pos Indonesi', 'pos', 'http://google.com/jne.jpg', '2023-12-05 14:05:20.328', NULL, NULL),
+  (3, 'PT Citra Van Titipan Kilat ', 'tiki', 'http://google.com/jne.jpg', '2023-12-05 14:05:20.328', NULL, NULL);
+
+  ```
+  - Image URL can be replaced with the appropriate one.
 
 ## Run In Docker
 
