@@ -114,17 +114,16 @@ These instructions will get you a copy of the project up and running on your loc
 ##  Credensial
 
 - Admin Credensial
-Email: admin123@gmail.com || Password: 123456
+  - Email: admin123@gmail.com || Password: 123456
 
 - User Credensial
-You can register it later via register API.
+  - You can register it later via register API.
 
 ## Postman Collections
-Import collection from [here](https://api.postman.com/collections/10350858-ed569efd-4c9d-43d9-8369-7d0b39e4d8cd?access_key=PMAT-01HQM4RH4MSM3FHN2YE3TTGSK6)
-
+Import collection from [here](https://api.postman.com/collections/10350858-ed569efd-4c9d-43d9-8369-7d0b39e4d8cd?access_key=PMAT-01HQM4RH4MSM3FHN2YE3TTGSK6) to your postman.
 
 ## Sample Logs
-- Sys Logs
+- Sys Logs 
 ```json
 {"time":"2024-02-26T21:51:32.055957+07:00","level":"INFO","msg":"Incoming Request","SYS":{"app_name":"cakrawala-app","app_version":"1.0.0","app_port":8124,"app_thread_id":"5b54f09c-cb45-4d89-84f1-85ef359fd257","header":{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Authorization":["Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkwMDk1NjAsInJvbGUiOiJhZG1pbiIsInVzZXJJZCI6MX0.B08f3FlGkUtFsOIkq6BDtMVHa_MWX1Ifr78fjeJCPV4"],"Connection":["keep-alive"],"Content-Length":["84"],"Content-Type":["application/json"],"Postman-Token":["ce076f36-891d-4a2c-9b99-ffc2331535c6"],"User-Agent":["PostmanRuntime/7.36.3"]},"app_method":"POST","app_uri":"/transaction/checkout"}}
 {"time":"2024-02-26T21:51:32.057289+07:00","level":"INFO","msg":"[Request]","SYS":{"app_name":"cakrawala-app","app_version":"1.0.0","app_port":8124,"app_thread_id":"5b54f09c-cb45-4d89-84f1-85ef359fd257","header":{"Accept":["*/*"],"Accept-Encoding":["gzip, deflate, br"],"Authorization":["Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkwMDk1NjAsInJvbGUiOiJhZG1pbiIsInVzZXJJZCI6MX0.B08f3FlGkUtFsOIkq6BDtMVHa_MWX1Ifr78fjeJCPV4"],"Connection":["keep-alive"],"Content-Length":["84"],"Content-Type":["application/json"],"Postman-Token":["ce076f36-891d-4a2c-9b99-ffc2331535c6"],"User-Agent":["PostmanRuntime/7.36.3"]},"app_method":"POST","app_uri":"/transaction/checkout"},"atribute":{"message_0":{"bankCode":"MANDIRI","courierCode":"jne","courierService":"OKE"}}}
