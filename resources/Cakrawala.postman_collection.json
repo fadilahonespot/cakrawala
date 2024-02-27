@@ -1,0 +1,2168 @@
+{
+	"info": {
+		"_postman_id": "ed569efd-4c9d-43d9-8369-7d0b39e4d8cd",
+		"name": "Cakrawala",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10350858"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get Province",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/external/user/province",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"user",
+								"province"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Province",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/user/province",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"user",
+										"province"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 22 Oct 2023 15:38:26 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1769"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"provinceName\": \"Bali\",\n            \"provinceId\": \"1\"\n        },\n        {\n            \"provinceName\": \"Bangka Belitung\",\n            \"provinceId\": \"2\"\n        },\n        {\n            \"provinceName\": \"Banten\",\n            \"provinceId\": \"3\"\n        },\n        {\n            \"provinceName\": \"Bengkulu\",\n            \"provinceId\": \"4\"\n        },\n        {\n            \"provinceName\": \"DI Yogyakarta\",\n            \"provinceId\": \"5\"\n        },\n        {\n            \"provinceName\": \"DKI Jakarta\",\n            \"provinceId\": \"6\"\n        },\n        {\n            \"provinceName\": \"Gorontalo\",\n            \"provinceId\": \"7\"\n        },\n        {\n            \"provinceName\": \"Jambi\",\n            \"provinceId\": \"8\"\n        },\n        {\n            \"provinceName\": \"Jawa Barat\",\n            \"provinceId\": \"9\"\n        },\n        {\n            \"provinceName\": \"Jawa Tengah\",\n            \"provinceId\": \"10\"\n        },\n        {\n            \"provinceName\": \"Jawa Timur\",\n            \"provinceId\": \"11\"\n        },\n        {\n            \"provinceName\": \"Kalimantan Barat\",\n            \"provinceId\": \"12\"\n        },\n        {\n            \"provinceName\": \"Kalimantan Selatan\",\n            \"provinceId\": \"13\"\n        },\n        {\n            \"provinceName\": \"Kalimantan Tengah\",\n            \"provinceId\": \"14\"\n        },\n        {\n            \"provinceName\": \"Kalimantan Timur\",\n            \"provinceId\": \"15\"\n        },\n        {\n            \"provinceName\": \"Kalimantan Utara\",\n            \"provinceId\": \"16\"\n        },\n        {\n            \"provinceName\": \"Kepulauan Riau\",\n            \"provinceId\": \"17\"\n        },\n        {\n            \"provinceName\": \"Lampung\",\n            \"provinceId\": \"18\"\n        },\n        {\n            \"provinceName\": \"Maluku\",\n            \"provinceId\": \"19\"\n        },\n        {\n            \"provinceName\": \"Maluku Utara\",\n            \"provinceId\": \"20\"\n        },\n        {\n            \"provinceName\": \"Nanggroe Aceh Darussalam (NAD)\",\n            \"provinceId\": \"21\"\n        },\n        {\n            \"provinceName\": \"Nusa Tenggara Barat (NTB)\",\n            \"provinceId\": \"22\"\n        },\n        {\n            \"provinceName\": \"Nusa Tenggara Timur (NTT)\",\n            \"provinceId\": \"23\"\n        },\n        {\n            \"provinceName\": \"Papua\",\n            \"provinceId\": \"24\"\n        },\n        {\n            \"provinceName\": \"Papua Barat\",\n            \"provinceId\": \"25\"\n        },\n        {\n            \"provinceName\": \"Riau\",\n            \"provinceId\": \"26\"\n        },\n        {\n            \"provinceName\": \"Sulawesi Barat\",\n            \"provinceId\": \"27\"\n        },\n        {\n            \"provinceName\": \"Sulawesi Selatan\",\n            \"provinceId\": \"28\"\n        },\n        {\n            \"provinceName\": \"Sulawesi Tengah\",\n            \"provinceId\": \"29\"\n        },\n        {\n            \"provinceName\": \"Sulawesi Tenggara\",\n            \"provinceId\": \"30\"\n        },\n        {\n            \"provinceName\": \"Sulawesi Utara\",\n            \"provinceId\": \"31\"\n        },\n        {\n            \"provinceName\": \"Sumatera Barat\",\n            \"provinceId\": \"32\"\n        },\n        {\n            \"provinceName\": \"Sumatera Selatan\",\n            \"provinceId\": \"33\"\n        },\n        {\n            \"provinceName\": \"Sumatera Utara\",\n            \"provinceId\": \"34\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get City",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/external/user/province/6/city",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"user",
+								"province",
+								"6",
+								"city"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get City",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/user/province/6/city",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"user",
+										"province",
+										"6",
+										"city"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 22 Oct 2023 15:52:45 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "311"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"cityName\": \"Jakarta Barat\",\n            \"cityId\": \"151\"\n        },\n        {\n            \"cityName\": \"Jakarta Pusat\",\n            \"cityId\": \"152\"\n        },\n        {\n            \"cityName\": \"Jakarta Selatan\",\n            \"cityId\": \"153\"\n        },\n        {\n            \"cityName\": \"Jakarta Timur\",\n            \"cityId\": \"154\"\n        },\n        {\n            \"cityName\": \"Jakarta Utara\",\n            \"cityId\": \"155\"\n        },\n        {\n            \"cityName\": \"Kepulauan Seribu\",\n            \"cityId\": \"189\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"pengusaha.abdi@gmail.com\",\n    \"password\": \"123456\",\n    \"name\": \"Ahmad Fadilah\",\n    \"phoneNumber\": \"0897800089\",\n    \"address\": \"jl patriot chandabagja\",\n    \"provinceId\": 3,\n    \"cityId\": 106,\n    \"postalCode\": \"17830\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/external/user/register",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"pengusaha.abdi@gmail.com\",\n    \"password\": \"123456\",\n    \"name\": \"Ahmad Fadilah\",\n    \"phoneNumber\": \"0897800089\",\n    \"address\": \"jl patriot chandabagja\",\n    \"provinceId\": 3,\n    \"cityId\": 106,\n    \"postalCode\": \"17830\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/external/user/register",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"user",
+										"register"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Feb 2024 01:53:21 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "97"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Email has been sent, please check your email for verification\",\n    \"data\": {}\n}"
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Parse the response body as JSON",
+									"var responseBody = pm.response.json();",
+									"",
+									"// Extract the token from the response data",
+									"var token = responseBody.data.token;",
+									"",
+									"// Set the environment variable with the extracted token",
+									"pm.environment.set(\"jwt-token\", token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"admin123@gmail.com\",\n    \"password\": \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-dev}}/external/user/login",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"external",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"email\": \"admin123@gmail.com\",\n    \"password\": \"123456\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-dev}}/external/user/login",
+									"host": [
+										"{{url-dev}}"
+									],
+									"path": [
+										"external",
+										"user",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Feb 2024 01:38:27 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "241"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"name\": \"Administator\",\n        \"userId\": 3,\n        \"role\": \"admin\",\n        \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDkwODQzMDcsInJvbGUiOiJhZG1pbiIsInVzZXJJZCI6M30.hXeJm2eAaJiaKAR6qmasHsrugWSZPsLo2UqysD23QXo\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/user/profile",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Profile",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/user/profile",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"user",
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 27 Oct 2023 13:28:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "308"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"email\": \"pengusaha.abdi@gmail.com\",\n        \"emailStatus\": \"VERIFY\",\n        \"name\": \"Ahmad Fadilah\",\n        \"phoneNumber\": \"62897007000\",\n        \"address\": \"jl kebangsaan bekasi\",\n        \"roleName\": \"super-admin\",\n        \"cityId\": 171,\n        \"provinceId\": 9,\n        \"cityName\": \"Karawang\",\n        \"provinceName\": \"Jawa Barat\",\n        \"postalCode\": \"16830\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Update Profile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Ahmad Fadilah\",\n    \"phoneNumber\": \"62897007000\",\n    \"address\": \"jl kebangsaan bekasi\",\n    \"cityId\": 39,\n    \"provinceId\": 5,\n    \"postalCode\": \"16830\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/user/profile",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"user",
+								"profile"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Profile Copy",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Ahmad Fadilah\",\n    \"phoneNumber\": \"62897007000\",\n    \"address\": \"jl kebangsaan bekasi\",\n    \"cityId\": 39,\n    \"provinceId\": 5,\n    \"postalCode\": \"16830\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/user/profile",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"user",
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Oct 2023 23:44:42 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Resend Email",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/user/resend-email",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"user",
+								"resend-email"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Resend Email",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/user/resend-email",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"user",
+										"resend-email"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 27 Feb 2024 01:55:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "97"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Email has been sent, please check your email for verification\",\n    \"data\": {}\n}"
+						}
+					]
+				},
+				{
+					"name": "Verification Email",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/external/user/verification?email=ahmad.fadilah7@gmail.com&id=1z819y4AK39nk26K2idpDa93zAq43BC2ogzvGu8pGzzqAqE3ro0yJdUarc1n4Dzhkko2t0jsGbnNFDDbNAQ7JYBgCFhTqAphaSse",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"user",
+								"verification"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "ahmad.fadilah7@gmail.com"
+								},
+								{
+									"key": "id",
+									"value": "1z819y4AK39nk26K2idpDa93zAq43BC2ogzvGu8pGzzqAqE3ro0yJdUarc1n4Dzhkko2t0jsGbnNFDDbNAQ7JYBgCFhTqAphaSse"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Verification Email",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/user/verification?email=pengusaha.abdi@gmail.com&id=5SMpCBuptadn2ZPTX8y7QFKntouDAwbtC6TvHFznxZjWVtxeB7nMIqWL8EEKp87oH0Rv3qrWY2NbmUWGQ9n1T073EbXI3MY5LvG58yg7TU72sE5re1bOOzPOh03eg",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"user",
+										"verification"
+									],
+									"query": [
+										{
+											"key": "email",
+											"value": "pengusaha.abdi@gmail.com"
+										},
+										{
+											"key": "id",
+											"value": "5SMpCBuptadn2ZPTX8y7QFKntouDAwbtC6TvHFznxZjWVtxeB7nMIqWL8EEKp87oH0Rv3qrWY2NbmUWGQ9n1T073EbXI3MY5LvG58yg7TU72sE5re1bOOzPOh03eg"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 23 Oct 2023 02:16:39 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Product Category",
+			"item": [
+				{
+					"name": "[Admin] Create Category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"food\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/product/category",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product",
+								"category"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Create Product Type",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"minuman\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/product/category",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product",
+										"category"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 00:33:12 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "[Admin] Update Category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"bumbu masak\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/product/category/3",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product",
+								"category",
+								"3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Update Product Type",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"elektronik\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/product/category/3",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product",
+										"category",
+										"3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 00:34:40 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Get All Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/external/product/category",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"product",
+								"category"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/product/category",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"product",
+										"category"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 27 Oct 2023 05:55:49 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "120"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"makanan\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"minuman\"\n        },\n        {\n            \"id\": 3,\n            \"name\": \"fashion\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Get All Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-dev}}/external/product/list?page=1&limit=10",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"external",
+								"product",
+								"list"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								},
+								{
+									"key": "key",
+									"value": "stok",
+									"description": "categoryId, description, name, weight, stok, price",
+									"disabled": true
+								},
+								{
+									"key": "value",
+									"value": "indomie",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get All Product",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/product/list?page=1&limit=10",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"product",
+										"list"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										},
+										{
+											"key": "key",
+											"value": "price",
+											"description": "categoryId, description, name, weight, stok, price",
+											"disabled": true
+										},
+										{
+											"key": "value",
+											"value": "15000",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 29 Oct 2023 06:03:12 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1264"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Energen Sashet 10 sashet\",\n            \"isAvailable\": true,\n            \"categoryId\": 1,\n            \"category\": \"makanan\",\n            \"price\": 14000,\n            \"image\": \"http://google.com/images/kopi_sashet.jpg\",\n            \"sold\": 12\n        },\n        {\n            \"id\": 2,\n            \"name\": \"Kopi Kapal API 10 sashet\",\n            \"isAvailable\": true,\n            \"categoryId\": 1,\n            \"category\": \"makanan\",\n            \"price\": 12000,\n            \"image\": \"http://google.com/images/kopi_sashet.jpg\",\n            \"sold\": 0\n        },\n        {\n            \"id\": 3,\n            \"name\": \"Biskuit Roma Kelapa\",\n            \"isAvailable\": true,\n            \"categoryId\": 1,\n            \"category\": \"makanan\",\n            \"price\": 15000,\n            \"image\": \"http://google.com/images/kopi_sashet.jpg\",\n            \"sold\": 0\n        },\n        {\n            \"id\": 6,\n            \"name\": \"Biskuat Rasa Susu\",\n            \"isAvailable\": true,\n            \"categoryId\": 1,\n            \"category\": \"makanan\",\n            \"price\": 6000,\n            \"image\": \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n            \"sold\": 0\n        },\n        {\n            \"id\": 7,\n            \"name\": \"Cola-cola\",\n            \"isAvailable\": true,\n            \"categoryId\": 2,\n            \"category\": \"minuman\",\n            \"price\": 5000,\n            \"image\": \"http://google.com/images/cola-cola.jpg\",\n            \"sold\": 0\n        },\n        {\n            \"id\": 8,\n            \"name\": \"Masako rasa sapi special\",\n            \"isAvailable\": true,\n            \"categoryId\": 3,\n            \"category\": \"bumbu masak\",\n            \"price\": 3000,\n            \"image\": \"https://www.dropbox.com/scl/fi/whe67wcz55w50dn55556e/imageskpx6qYKKtz.png?rlkey=p7q9c91zl4lj3cxull1rl0s9p&raw=1\",\n            \"sold\": 0\n        }\n    ],\n    \"pagination\": {\n        \"page\": 1,\n        \"limit\": 10,\n        \"total_data\": 6,\n        \"total_page\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Product By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/external/product/1",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"product",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Product By Id",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/external/product/1",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"external",
+										"product",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 26 Feb 2024 09:25:47 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1731"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Indomi Goreng Rasa Ayam Panggang\",\n        \"code\": \"KP-0001-0639\",\n        \"isAvailable\": true,\n        \"description\": \"Indomi Goreng Rasa Ayam Panggang adalah pilihan sempurna untuk menikmati cita rasa lezat dari Indomie dalam versi goreng yang gurih dan nikmat. Dengan perpaduan antara mi goreng yang kenyal dan bumbu ayam panggang yang khas, setiap gigitan akan menghadirkan sensasi kelezatan yang memanjakan lidah Anda.\\n\\nDiperkaya dengan rempah-rempah pilihan dan bumbu khas Indonesia, Indomie Goreng Rasa Ayam Panggang memiliki aroma yang menggoda dan rasanya yang autentik. Cocok untuk dinikmati kapan saja, baik sebagai sarapan, makan siang, atau camilan saat lapar di tengah malam.\\n\\nSajikan Indomie Goreng Rasa Ayam Panggang dengan telur mata sapi rebus, irisan ayam goreng, potongan daun bawang, dan taburan bawang goreng untuk pengalaman menikmati mi goreng yang lebih spesial. Tidak hanya nikmat, mi goreng ini juga praktis dan mudah disiapkan, sehingga cocok untuk menemani segala aktivitas Anda sehari-hari.\\n\\nDengan Indomie Goreng Rasa Ayam Panggang, rasakan kenikmatan mi goreng yang lezat dan autentik dengan cita rasa ayam panggang yang khas. Segera dapatkan Indomie Goreng Rasa Ayam Panggang dan nikmati kelezatannya sekarang juga!\",\n        \"categoryId\": 2,\n        \"category\": \"food\",\n        \"weight\": 300,\n        \"stock\": 500,\n        \"price\": 6000,\n        \"sold\": 0,\n        \"images\": [\n            \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n            \"https://www.dropbox.com/scl/fi/inmkcx9ztdo1mve94ebi3/imagescZjzimvo88.png?rlkey=cxljcyp81c0552olas7skemzz&raw=1\",\n            \"https://www.dropbox.com/scl/fi/yi938mcrcfrdx9x3s31r9/imagesPppTkIaYWb.png?rlkey=vbfoplcm3k53zcsq8mtb2oaxt&raw=1\"\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "[Admin] Upload Image",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/Users/fadilah/Downloads/toshiba1.jpeg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url-local}}/product/images",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product",
+								"images"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "[Admin] Upload Image",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "images",
+											"type": "file",
+											"src": "/Users/fadilah/Downloads/toshiba1.jpeg"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url-local}}/product/images",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product",
+										"images"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 26 Feb 2024 09:26:29 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "182"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"images\": [\n            \"https://www.dropbox.com/scl/fi/2iww53wq6u5a9qiamjqmr/file_cG9VyQsAHvBiSgpTRzrW.jpeg?rlkey=k0v3vd8jgsibhgrn1wwo9n67c&raw=1\"\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "[Admin] Add Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Indomi Goreng Rasa Kari Spesial\",\n    \"code\": \"KP-0001-0645\",\n    \"isAvailable\": true,\n    \"description\": \"Berasal dari daging sapi pilihan yang telah melewati proses ketat untuk memastikan bumbu yang berkualitas\",\n    \"categoryId\": 2,\n    \"weight\": 100,\n    \"stock\": 5000,\n    \"price\": 3000,\n    \"images\": [\n        \"https://www.dropbox.com/scl/fi/whe67wcz55w50dn55556e/imageskpx6qYKKtz.png?rlkey=p7q9c91zl4lj3cxull1rl0s9p&raw=1\",\n        \"https://www.dropbox.com/scl/fi/n3h7okdzpby1p1kc8cw0d/images0FVyQPour1.jpg?rlkey=jl6g2zqwm6c3wnp1cfbin7ho5&raw=1\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/product",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "[Admin] Add Product",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Masako rasa sapi special\",\n    \"code\": \"KP-0001-0645\",\n    \"isAvailable\": true,\n    \"description\": \"Berasal dari daging sapi pilihan yang telah melewati proses ketat untuk memastikan bumbu yang berkualitas\",\n    \"categoryId\": 3,\n    \"weight\": 100,\n    \"stock\": 5000,\n    \"price\": 3000,\n    \"images\": [\n        \"https://www.dropbox.com/scl/fi/whe67wcz55w50dn55556e/imageskpx6qYKKtz.png?rlkey=p7q9c91zl4lj3cxull1rl0s9p&raw=1\",\n        \"https://www.dropbox.com/scl/fi/n3h7okdzpby1p1kc8cw0d/images0FVyQPour1.jpg?rlkey=jl6g2zqwm6c3wnp1cfbin7ho5&raw=1\"\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/product",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Oct 2023 02:32:47 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "[Admin] Update Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Indomi Goreng Rasa Ayam Panggang\",\n    \"code\": \"KP-0001-0639\",\n    \"isAvailable\": true,\n    \"description\": \"Indomi Goreng Rasa Ayam Panggang adalah pilihan sempurna untuk menikmati cita rasa lezat dari Indomie dalam versi goreng yang gurih dan nikmat. Dengan perpaduan antara mi goreng yang kenyal dan bumbu ayam panggang yang khas, setiap gigitan akan menghadirkan sensasi kelezatan yang memanjakan lidah Anda.\\n\\nDiperkaya dengan rempah-rempah pilihan dan bumbu khas Indonesia, Indomie Goreng Rasa Ayam Panggang memiliki aroma yang menggoda dan rasanya yang autentik. Cocok untuk dinikmati kapan saja, baik sebagai sarapan, makan siang, atau camilan saat lapar di tengah malam.\\n\\nSajikan Indomie Goreng Rasa Ayam Panggang dengan telur mata sapi rebus, irisan ayam goreng, potongan daun bawang, dan taburan bawang goreng untuk pengalaman menikmati mi goreng yang lebih spesial. Tidak hanya nikmat, mi goreng ini juga praktis dan mudah disiapkan, sehingga cocok untuk menemani segala aktivitas Anda sehari-hari.\\n\\nDengan Indomie Goreng Rasa Ayam Panggang, rasakan kenikmatan mi goreng yang lezat dan autentik dengan cita rasa ayam panggang yang khas. Segera dapatkan Indomie Goreng Rasa Ayam Panggang dan nikmati kelezatannya sekarang juga!\",\n    \"categoryId\": 1,\n    \"weight\": 300,\n    \"stock\": 500,\n    \"price\": 6000,\n    \"images\": [\n        \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n        \"https://www.dropbox.com/scl/fi/inmkcx9ztdo1mve94ebi3/imagescZjzimvo88.png?rlkey=cxljcyp81c0552olas7skemzz&raw=1\",\n        \"https://www.dropbox.com/scl/fi/yi938mcrcfrdx9x3s31r9/imagesPppTkIaYWb.png?rlkey=vbfoplcm3k53zcsq8mtb2oaxt&raw=1\"\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/product/1",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "[Admin] Update Product",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"Indomi Goreng Rasa Ayam Panggang\",\n    \"code\": \"KP-0001-0639\",\n    \"isAvailable\": true,\n    \"description\": \"Indomi Goreng Rasa Ayam Panggang adalah pilihan sempurna untuk menikmati cita rasa lezat dari Indomie dalam versi goreng yang gurih dan nikmat. Dengan perpaduan antara mi goreng yang kenyal dan bumbu ayam panggang yang khas, setiap gigitan akan menghadirkan sensasi kelezatan yang memanjakan lidah Anda.\\n\\nDiperkaya dengan rempah-rempah pilihan dan bumbu khas Indonesia, Indomie Goreng Rasa Ayam Panggang memiliki aroma yang menggoda dan rasanya yang autentik. Cocok untuk dinikmati kapan saja, baik sebagai sarapan, makan siang, atau camilan saat lapar di tengah malam.\\n\\nSajikan Indomie Goreng Rasa Ayam Panggang dengan telur mata sapi rebus, irisan ayam goreng, potongan daun bawang, dan taburan bawang goreng untuk pengalaman menikmati mi goreng yang lebih spesial. Tidak hanya nikmat, mi goreng ini juga praktis dan mudah disiapkan, sehingga cocok untuk menemani segala aktivitas Anda sehari-hari.\\n\\nDengan Indomie Goreng Rasa Ayam Panggang, rasakan kenikmatan mi goreng yang lezat dan autentik dengan cita rasa ayam panggang yang khas. Segera dapatkan Indomie Goreng Rasa Ayam Panggang dan nikmati kelezatannya sekarang juga!\",\n    \"categoryId\": 1,\n    \"weight\": 300,\n    \"stock\": 500,\n    \"price\": 6000,\n    \"images\": [\n        \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n        \"https://www.dropbox.com/scl/fi/inmkcx9ztdo1mve94ebi3/imagescZjzimvo88.png?rlkey=cxljcyp81c0552olas7skemzz&raw=1\",\n        \"https://www.dropbox.com/scl/fi/yi938mcrcfrdx9x3s31r9/imagesPppTkIaYWb.png?rlkey=vbfoplcm3k53zcsq8mtb2oaxt&raw=1\"\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/product/1",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 26 Feb 2024 09:27:51 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "[Admin] Delete Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/product/5",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"product",
+								"5"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Product",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/product/4",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"product",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Tue, 24 Oct 2023 16:16:43 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Transaction",
+			"item": [
+				{
+					"name": "Get Available Bank",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-dev}}/transaction/bank",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"bank"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Available Bank",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/bank",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"bank"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 03:31:28 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "491"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"name\": \"Bank Central Asia\",\n            \"code\": \"BCA\"\n        },\n        {\n            \"name\": \"Bank Negara Indonesia\",\n            \"code\": \"BNI\"\n        },\n        {\n            \"name\": \"Bank Mandiri\",\n            \"code\": \"MANDIRI\"\n        },\n        {\n            \"name\": \"Bank Permata\",\n            \"code\": \"PERMATA\"\n        },\n        {\n            \"name\": \"Bank Sahabat Sampoerna\",\n            \"code\": \"SAHABAT_SAMPOERNA\"\n        },\n        {\n            \"name\": \"Bank Rakyat Indonesia\",\n            \"code\": \"BRI\"\n        },\n        {\n            \"name\": \"Bank CIMB Niaga\",\n            \"code\": \"CIMB\"\n        },\n        {\n            \"name\": \"Bank Syariah Indonesia\",\n            \"code\": \"BSI\"\n        },\n        {\n            \"name\": \"Bank Jabar Banten\",\n            \"code\": \"BJB\"\n        },\n        {\n            \"name\": \"Bank Neo Commerce\",\n            \"code\": \"BNC\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Available Courier",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/transaction/courier",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"transaction",
+								"courier"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Available Courier",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/courier",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"courier"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 05:49:36 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "310"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"name\": \"PT Tiki Jalur Nugraha Eka Kurir\",\n            \"code\": \"jne\",\n            \"image\": \"http://google.com/jne.jpg\"\n        },\n        {\n            \"name\": \"PT Citra Van Titipan Kilat\",\n            \"code\": \"tiki\",\n            \"image\": \"http://google.com/tiki.jpg\"\n        },\n        {\n            \"name\": \"PT Pos Indonesia (Persero)\",\n            \"code\": \"pos\",\n            \"image\": \"http://google.com/pos.jpg\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Check Shipping",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"courierCode\": \"jne\",\n    \"weight\": 3800\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-dev}}/transaction/shipping",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"shipping"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Check Shipping",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"courierCode\": \"jne\",\n    \"weight\": 1200\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/transaction/shipping",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"shipping"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 08:42:37 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "528"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"courierCode\": \"jne\",\n        \"courierName\": \"Jalur Nugraha Ekakurir (JNE)\",\n        \"originProvince\": \"DKI Jakarta\",\n        \"originCity\": \"Jakarta Barat\",\n        \"destinationProvince\": \"Jawa Barat\",\n        \"destinationCity\": \"Karawang\",\n        \"courierService\": [\n            {\n                \"serviceName\": \"OKE\",\n                \"description\": \"Ongkos Kirim Ekonomis\",\n                \"price\": 11000,\n                \"etd\": \"2-3\",\n                \"note\": \"\"\n            },\n            {\n                \"serviceName\": \"REG\",\n                \"description\": \"Layanan Reguler\",\n                \"price\": 12000,\n                \"etd\": \"1-2\",\n                \"note\": \"\"\n            },\n            {\n                \"serviceName\": \"YES\",\n                \"description\": \"Yakin Esok Sampai\",\n                \"price\": 24000,\n                \"etd\": \"1-1\",\n                \"note\": \"\"\n            }\n        ]\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Add Basket",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"productId\": 1,\n    \"quantity\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-dev}}/transaction/basket",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"basket"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add Basket",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"productId\": 1,\n    \"quantity\": 2\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-local}}/transaction/basket",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"basket"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 25 Oct 2023 17:12:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Basket",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-dev}}/transaction/basket",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"basket"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Basket",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/basket",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"basket"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 29 Oct 2023 06:04:19 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "463"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"productId\": 3,\n            \"name\": \"Biskuit Roma Kelapa\",\n            \"weight\": 800,\n            \"price\": 15000,\n            \"image\": \"http://google.com/images/kopi_sashet.jpg\",\n            \"quantity\": 5,\n            \"totalPrice\": 75000,\n            \"totalWeight\": 4000\n        },\n        {\n            \"productId\": 6,\n            \"name\": \"Biskuat Rasa Susu\",\n            \"weight\": 300,\n            \"price\": 6000,\n            \"image\": \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n            \"quantity\": 5,\n            \"totalPrice\": 30000,\n            \"totalWeight\": 1500\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete Basket",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{url-aws}}/transaction/basket/8",
+							"host": [
+								"{{url-aws}}"
+							],
+							"path": [
+								"transaction",
+								"basket",
+								"8"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Delete Basket",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/basket/2",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"basket",
+										"2"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 26 Oct 2023 02:22:17 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "45"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Checkout Transaction",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"bankCode\": \"MANDIRI\",\n    \"courierCode\": \"jne\",\n    \"courierService\": \"OKE\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/transaction/checkout",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"transaction",
+								"checkout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Checkout Transaction",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"bankCode\": \"BCA\",\n    \"courierCode\": \"jne\",\n    \"courierService\": \"OKE\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url-aws}}/transaction/checkout",
+									"host": [
+										"{{url-aws}}"
+									],
+									"path": [
+										"transaction",
+										"checkout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 26 Oct 2023 15:31:05 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "316"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"transactionId\": \"be94d0c5-519f-4d54-9e46-1ec4647f0632\",\n        \"xPayment\": \"FS-974805008973093\",\n        \"bankCode\": \"BCA\",\n        \"virtualAccount\": \"381659999057670\",\n        \"virtualAccountName\": \"FA Spot\",\n        \"shippingCost\": 66000,\n        \"productPrice\": 82000,\n        \"totalAmount\": 148000,\n        \"expiredDate\": \"2023-10-27T15:31:04.338Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Callback [Test]",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-callback-token",
+								"value": "tClKUk9LdFbJrrdrJkTN29JOkAh93w1aUbVIC51jXxP595dL",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"598d91b1191029596846047f\",\n    \"payment_id\": \"5f218745736e619164dc8608\",\n    \"callback_virtual_account_id\": \"598d5f71bf64853820c49a18\",\n    \"owner_id\": \"57b4e5181473eeb61c11f9b9\",\n    \"external_id\": \"FS-637458877095397\",\n    \"account_number\": \"999939380502\",\n    \"bank_code\": \"MANDIRI\",\n    \"transaction_timestamp\": \"2023-10-29T09:22:55.115Z\",\n    \"amount\": 120000,\n    \"merchant_code\": \"90100010\",\n    \"currency\": \"IDR\",\n    \"country\": \"ID\",\n    \"sender_name\": \"Michael Chen\",\n    \"payment_detail\": {\n        \"payment_interface\": \"MOBILE_BANKING\",\n        \"remark\": \"Sent by Michael for my package\",\n        \"reference\": \"66143641700\",\n        \"sender_account_number\": \"12345678912345\",\n        \"sender_channel_code\": \"BNC\",\n        \"sender_name\": \"Michael Chen\",\n        \"transfer_method\": \"INHOUSE\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url-local}}/external/transaction/callback",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"external",
+								"transaction",
+								"callback"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get History",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-dev}}/transaction/history?page=1&limit=20",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"history"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "20"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get History",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/history?page=1&limit=10",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"history"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 27 Oct 2023 01:13:12 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1256"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": [\n        {\n            \"transactionId\": \"5c7f2beb-f2fa-4ce0-a81a-52e1528fceb9\",\n            \"xPayment\": \"FS-401751061217498\",\n            \"status\": \"paid\",\n            \"createdAt\": \"2023-10-26T17:02:33.113+07:00\",\n            \"amount\": 23000\n        },\n        {\n            \"transactionId\": \"7d2de990-2033-4c31-b926-991ab391c9f5\",\n            \"xPayment\": \"FS-030236814590581\",\n            \"status\": \"unpaid\",\n            \"createdAt\": \"2023-10-26T16:32:56.163+07:00\",\n            \"amount\": 17000\n        },\n        {\n            \"transactionId\": \"be94d0c5-519f-4d54-9e46-1ec4647f0632\",\n            \"xPayment\": \"FS-974805008973093\",\n            \"status\": \"paid\",\n            \"createdAt\": \"2023-10-26T15:31:05.334+07:00\",\n            \"amount\": 148000\n        },\n        {\n            \"transactionId\": \"8e8c6d89-2e2f-48da-bdf4-c9bbf4ec345d\",\n            \"xPayment\": \"FS-791498327786499\",\n            \"status\": \"paid\",\n            \"createdAt\": \"2023-10-26T21:41:18.955+07:00\",\n            \"amount\": 63000\n        },\n        {\n            \"transactionId\": \"6ce18382-bd5d-4ebe-99fe-b48ba9c090ee\",\n            \"xPayment\": \"FS-124890432731888\",\n            \"status\": \"unpaid\",\n            \"createdAt\": \"2023-10-26T20:39:18.121+07:00\",\n            \"amount\": 42000\n        },\n        {\n            \"transactionId\": \"70627140-4d68-4200-a6c1-58363a036963\",\n            \"xPayment\": \"FS-612853967347501\",\n            \"status\": \"paid\",\n            \"createdAt\": \"2023-10-26T19:46:27.942+07:00\",\n            \"amount\": 79000\n        },\n        {\n            \"transactionId\": \"3e22a760-b4e3-4b69-8eaf-064da527969c\",\n            \"xPayment\": \"FS-778007961135769\",\n            \"status\": \"paid\",\n            \"createdAt\": \"2023-10-26T17:32:28.533+07:00\",\n            \"amount\": 170000\n        }\n    ],\n    \"pagination\": {\n        \"page\": 1,\n        \"limit\": 10,\n        \"total_data\": 7,\n        \"total_page\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Trx Detail",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{jwt-token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-dev}}/transaction/detail/43492606-8c65-43d6-9c61-0ec2d2df128b",
+							"host": [
+								"{{url-dev}}"
+							],
+							"path": [
+								"transaction",
+								"detail",
+								"43492606-8c65-43d6-9c61-0ec2d2df128b"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Trx Detail",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url-local}}/transaction/detail/55af20e6-d587-4742-98e5-31b8121018b3",
+									"host": [
+										"{{url-local}}"
+									],
+									"path": [
+										"transaction",
+										"detail",
+										"55af20e6-d587-4742-98e5-31b8121018b3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 28 Oct 2023 03:16:40 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1284"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"transactionId\": \"55af20e6-d587-4742-98e5-31b8121018b3\",\n        \"userName\": \"Ahmad Fadilah\",\n        \"userAddress\": \"jl kebangsaan bekasi\",\n        \"userPhone\": \"62897007000\",\n        \"userEmail\": \"pengusaha.abdi@gmail.com\",\n        \"xPayment\": \"FS-042734308882342\",\n        \"status\": \"paid\",\n        \"bank\": \"BCA\",\n        \"virtualAccount\": \"381659999148457\",\n        \"adminFree\": 0,\n        \"shippingCost\": 22000,\n        \"productAmount\": 33000,\n        \"totalPayment\": 55000,\n        \"productQuantity\": 3,\n        \"productWeight\": 1900,\n        \"courierName\": \"jne\",\n        \"courierService\": \"OKE\",\n        \"originCity\": \"Jakarta Barat\",\n        \"destinationCity\": \"Karawang\",\n        \"etd\": \"2-3\",\n        \"createdAt\": \"2023-10-27T09:55:26.951+07:00\",\n        \"expiredAt\": \"2023-10-28T09:55:25.962+07:00\",\n        \"items\": [\n            {\n                \"productId\": 6,\n                \"productName\": \"Biskuat Rasa Susu\",\n                \"productImg\": \"https://www.dropbox.com/scl/fi/aepmvdgudmx13dlm3pzn1/imagesu4zaWdpdKg.png?rlkey=vzidhlz97ema70kdlysq8igb2&raw=1\",\n                \"price\": 6000,\n                \"weight\": 300,\n                \"quantity\": 1,\n                \"totalPrice\": 6000,\n                \"totalWeight\": 300\n            },\n            {\n                \"productId\": 3,\n                \"productName\": \"Biskuit Roma Kelapa\",\n                \"productImg\": \"http://google.com/images/kopi_sashet.jpg\",\n                \"price\": 15000,\n                \"weight\": 800,\n                \"quantity\": 1,\n                \"totalPrice\": 15000,\n                \"totalWeight\": 800\n            },\n            {\n                \"productId\": 2,\n                \"productName\": \"Kopi Kapal API 10 sashet\",\n                \"productImg\": \"http://google.com/images/kopi_sashet.jpg\",\n                \"price\": 12000,\n                \"weight\": 800,\n                \"quantity\": 1,\n                \"totalPrice\": 12000,\n                \"totalWeight\": 800\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url-dev}}/ping",
+					"host": [
+						"{{url-dev}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ping",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url-local}}/ping",
+							"host": [
+								"{{url-local}}"
+							],
+							"path": [
+								"ping"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 23 Oct 2023 02:29:17 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "81"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"code\": 200,\n    \"message\": \"Success\",\n    \"data\": {\n        \"time\": \"Mon, 23 Oct 2023 02:29:17 UTC\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
