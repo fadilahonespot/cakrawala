@@ -26,6 +26,15 @@ func ResponseSuccess(data interface{}) Response {
 	}
 }
 
+func ResponseSuccessWithMessage(code int, message string) Response {
+	return Response{
+		Code:    code,
+		Message: message,
+		Data:    struct{}{},
+	}
+}
+
+
 func ResponseProcees(data interface{}) Response {
 	return Response{
 		Code:    http.StatusProcessing,

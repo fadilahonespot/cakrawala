@@ -7,6 +7,7 @@ import (
 	"github.com/fadilahonespot/cakrawala/usecase/user"
 	"github.com/fadilahonespot/cakrawala/usecase/user/model"
 	"github.com/fadilahonespot/cakrawala/utils"
+	"github.com/fadilahonespot/cakrawala/utils/constrans"
 	"github.com/fadilahonespot/cakrawala/utils/errors"
 	"github.com/fadilahonespot/cakrawala/utils/logger"
 	"github.com/fadilahonespot/cakrawala/utils/response"
@@ -73,7 +74,7 @@ func (h *UserHandler) Register(c echo.Context) (err error) {
 		return err
 	}
 
-	resp := response.ResponseSuccess(nil)
+	resp := response.ResponseSuccessWithMessage(http.StatusOK, constrans.SuccessSendEmail)
 	return c.JSON(http.StatusOK, resp)
 }
 
@@ -130,7 +131,7 @@ func (h *UserHandler) ResendEmailVerification(c echo.Context) (err error) {
 		return err
 	}
 
-	resp := response.ResponseSuccess(nil)
+	resp := response.ResponseSuccessWithMessage(http.StatusOK, constrans.SuccessSendEmail)
 	return c.JSON(http.StatusOK, resp)
 }
 
