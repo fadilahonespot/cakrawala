@@ -130,7 +130,7 @@ These instructions will get you a copy of the project up and running on your loc
   - You can register it later via register API.
 
 ## Postman Collections
-Import collection from [here](https://api.postman.com/collections/10350858-ed569efd-4c9d-43d9-8369-7d0b39e4d8cd?access_key=PMAT-01HQM4RH4MSM3FHN2YE3TTGSK6) to your postman.
+Import collection from [here](https://github.com/fadilahonespot/cakrawala/blob/master/resources/Cakrawala.postman_collection.json) to your postman.
 
 ## Sample Logs
 - Sys Logs 
