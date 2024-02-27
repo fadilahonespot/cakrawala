@@ -28,7 +28,7 @@ Cakrawala is an API application built to assist in managing products and sales t
 
 ## ERD
 
-![ERD](https://github.com/fadilahonespot/cakrawala/resources/cakrawala-diagram.png)
+![ERD](https://github.com/fadilahonespot/cakrawala/blob/master/resources/cakrawala-diagram.png)
 
 ## User Roles
 
@@ -111,11 +111,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. **Accessing the API**: Access the API via `http://ec2-18-139-162-85.ap-southeast-1.compute.amazonaws.com:8124`.  
 
-## Admin Credensial
-Email: admin123@gmail.com
-Password: 123456
+##  Credensial
 
-## User Credensial
+- Admin Credensial
+Email: admin123@gmail.com || Password: 123456
+
+- User Credensial
 You can register it later via register API.
 
 ## Postman Collections
