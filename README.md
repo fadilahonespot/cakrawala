@@ -115,19 +115,7 @@ These instructions will get you a copy of the project up and running on your loc
     ```cmd
     docker run -p 8124:8124 --name cakrawala-store fadilahonespot/cakrawala:1.0.0
     ```
-2. **Accessing the API**: Access the API via `http://localhost:8124` or as per your configuration. 
-
-## Access Cloud API
-
-1. **Accessing the API**: Access the API via `http://ec2-18-139-162-85.ap-southeast-1.compute.amazonaws.com:8124`.  
-
-##  Credensial
-
-- Admin Credensial
-  - Email: admin123@gmail.com || Password: 123456
-
-- User Credensial
-  - You can register it later via register API.
+2. **Accessing the API**: Access the API via `http://localhost:8124` or as per your configuration.  
 
 ## Postman Collections
 Import collection from [here](https://github.com/fadilahonespot/cakrawala/blob/master/resources/Cakrawala.postman_collection.json) to your postman.
